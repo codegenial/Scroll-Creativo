@@ -1,5 +1,5 @@
 # Dale un estilo sensacional al scroll de tu sitio web
-Hola, aprende a usar la propiedad clip-path para crear un menú animado.
+Hola, con estos sencillos pasos podrás agregar variedad de estilos al scroll de tu sitio web.
 
 ![Dando un estilo creativo al scroll - Codegenial](https://github.com/codegenial/Scroll-Creativo/blob/master/img/portada.jpg?raw=true)
 
