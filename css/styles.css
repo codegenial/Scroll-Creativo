@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modal {    
+    position: relative;
+    margin: auto;
+    background-color: #8feef1;
+    height: 1000px;
+    width: 100vw;
+    /* border-radius: 3px; */
+    overflow: hidden;
+}
+
+.gradient-bar {
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(to right, #e731cb, #7143e9);
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.fa-times {
+    float: right;
+    margin: 20px 20px;
+    color: #454545;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.fa-times:hover {
+    transform: scale(0.75);
+}
+
+.text-wrapper {
+    text-align: center;
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    margin: 10px 0px 20px 0px;
+    font-size: 16px;
+    color: #454545;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    margin: 0 5px;
+    height: 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.button-yes {
+    background-color: #e93d3d;
+    color: #fff;
+}
+
+.button-yes:hover {
+    background-image: none;
+    background-color: #c43434;
+}
+
+.button-no {
+    border: 1px solid #454545;
+    background-color: transparent;
+    color: #454545;
+}
+
+.button-no:hover {
+    border-color: black;
+    color: black;
+}
+
+
+
+/* PERSONALIZAR EN SCROLL */
+
+/* Tamaño del scroll */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+body::-webkit-scrollbar-thumb {
+    background-color: #e93d3d;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #F5ADAD;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* El foondo cambia cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+    background-color: #F18888;
+}
+
+ /* Estilos track de scroll */
+body::-webkit-scrollbar-track {
+    background: #FDEDED;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover, 
+body::-webkit-scrollbar-track:active {
+    background: #F9CDCD;
+}
